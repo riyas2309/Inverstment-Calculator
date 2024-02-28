@@ -5,9 +5,8 @@ import ListData from "./ListData";
 function ResultCard() {
   return (
     <div>
-      {/* <NoInverstment /> */}
-      {/* <CalculatedData /> */}
-      <ListData />
+      <NoInverstment />
+      <CalculatedData />
     </div>
   );
 }

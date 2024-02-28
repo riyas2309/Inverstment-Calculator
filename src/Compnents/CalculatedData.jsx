@@ -5,6 +5,7 @@ function CalculatedData() {
   return (
     <div className=" flex-[1]">
       <Heading />
+      <ListData />
     </div>
   );
 }

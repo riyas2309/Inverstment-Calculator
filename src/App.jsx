@@ -5,15 +5,14 @@ import ResultCard from "./Compnents/ResultCard";
 function App() {
   return (
     <>
-      <div className="bg-[#141a17ff] w-screen h-screen flex flex-col items-center ">
+      <div className=" bg-[#141a17ff] flex flex-col items-center ">
         <TitleCard />
         <CalculationCard />
-        <div className="pt-10 text-[#fff]">
+        <div className="pt-10 text-[#fff] pb-10">
           <ResultCard />
         </div>
       </div>
     </>
   );
 }
-
 export default App;
